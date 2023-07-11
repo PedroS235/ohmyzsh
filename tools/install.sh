@@ -543,7 +543,8 @@ EOF
     exit
   fi
 
-  exec zsh -l
+  # Removing the line below in order to now launch zsh after installation
+  # exec zsh -l
 }
 
 main "$@"
